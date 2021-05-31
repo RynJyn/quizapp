@@ -1,0 +1,70 @@
+body 
+{
+background: linear-gradient(-135deg, #1b5082, #d1dbe7) no-repeat;
+background-attachment: fixed;
+height: 100%;
+}
+
+
+#container{
+width:100%;}
+
+
+.Name{
+float: left;
+}
+
+
+a:visited{
+color:#ADEBFF;
+}
+
+.homeButton{
+height: 35px;
+width: 150px;
+font-family: segoe UI; 
+color: #033566;
+font-size: 20px;
+font-weight: bold;
+margin: auto; 
+margin-top:1%;
+background: linear-gradient(180deg,#6da7cd,#2d6bbe) no-repeat;
+border: 1px solid #bdd3eb;
+text-align: center;
+}
+
+
+.Leaderboard{
+-webkit-column-count: 2; /*Chrome, Safari, Opera*/
+-webkit-column-gap:1%;
+-webkit-column-rule: 1px solid black;
+-webkit-column-fill: balanced;
+column-width: 30%;
+margin-bottom: 5%;
+margin-top: 5%;
+padding-top:2%;
+padding-bottom: 2%;
+text-align: center;
+font-family: segoe UI;
+clear: both;
+font-size: 20px;
+width: 50%;
+margin: auto;
+}
+
+.Trophy{
+float: right;
+margin-top: 3%;
+margin-right: 10%;
+margin-bottom: 2%;
+clear: right;}
+
+.Title{
+font-size: 38px;
+clear:right;
+float: right;
+margin-right: 5%;
+font-family: segoe UI;
+text-decoration: underline;
+color: #ADEBFF;
+}

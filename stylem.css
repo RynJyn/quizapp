@@ -1,0 +1,35 @@
+body 
+{
+background: linear-gradient(-135deg, #1b5082, #d1dbe7) no-repeat;
+background-attachment: fixed;
+height: 100%;
+}
+.buttons {
+height:50px;
+width:300px;
+font-size:30px;
+background: linear-gradient(180deg,#6da7cd,#2d6bbe) no-repeat;
+font-weight:bold;
+border-radius:100px;
+border: 1px solid #bdd3eb;
+color: #033566;
+}
+#buttoncontainer{
+float:right;
+margin-top:20px;
+width:40%;
+display:inline;
+}
+.ccimage{
+text-align:center-left;
+margin:100px;
+width:80%;
+display:inline;
+height:20px;
+}
+.titleimage{
+height:270px;
+margin:auto;
+text-align:center-left;
+width:80%;
+}

@@ -1,0 +1,372 @@
+*
+{
+font-family: "Segoe UI";
+}
+
+body 
+{
+background: linear-gradient(-135deg, #1b5082, #d1dbe7) no-repeat;
+background-attachment: fixed;
+height: 100%;
+
+}
+
+#loginwrap
+{
+margin: auto;
+width: 50%;
+}
+
+.questionswrap
+{
+margin: auto;
+width: 50%;
+}
+
+.questions
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 50%;
+}
+
+#loginbox
+{
+background: #527ea8;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border: 5px solid white;
+box-shadow: 5px 5px 5px #063e59;
+margin: auto;
+text-align: center;
+padding-bottom: 0.5%;
+width: 400px;
+}
+
+.errortext
+{
+color: #990000;
+}
+
+header
+{
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+background: #154068;
+font-size: 20px;
+text-align: center;
+color: white;
+}
+
+#menu
+{
+position: fixed;
+left: 0;
+top: 26.5px;
+height: 100%;
+background-color:  #31618e;
+color: #d1dbe7;
+padding-left: 1%;
+padding-top: 1%;
+padding-right: 1%;
+}
+
+#menu ul
+{
+list-style-type: none;
+padding-bottom: 10%;
+}
+
+#menu .titleli
+{
+font-weight: bold;
+padding: 0;
+}
+
+#menu li 
+{
+padding: 5%;
+}
+
+#menu li a
+{
+height: 100%;
+width: 100%;
+display: block;
+text-decoration: none;
+color: inherit;
+}
+
+#menu li a:hover
+{
+background: #1b5082;
+}
+
+#quizSettings
+{
+text-align: center;
+margin: auto;
+}
+
+#userSettings
+{
+text-align: center;
+margin: auto;
+}
+
+ul 
+{
+padding: 0;
+margin: 0;
+}
+
+#box
+{
+position: fixed;
+top: 26.9px;
+left: 0;
+z-index: -1;
+height: 100%;
+width: 100%;
+background: white;
+text-align: center;
+}
+
+#addQuestion
+{
+display: none;
+}
+
+#addQuestion:target
+{
+display: block;
+}
+
+#removeQuestion
+{
+display: none;
+}
+
+#removeQuestion:target
+{
+display: block;
+}
+
+#modifyQuestion
+{
+display: none;
+}
+
+#modifyQuestion:target
+{
+display: block;
+}
+
+#modifybox
+{
+display: none;
+}
+
+#modifybox:target
+{
+display: block;
+}
+
+#createUser
+{
+display: none;
+}
+
+#createUser:target
+{
+display: block;
+}
+
+#deleteUser
+{
+display: none;
+}
+
+#deleteUser:target
+{
+display: block;
+}
+
+#createAdmin
+{
+display: none;
+}
+
+#createAdmin:target
+{
+display: block;
+}
+
+#deleteAdmin
+{
+display: none;
+}
+
+#deleteAdmin:target
+{
+display: block;
+}
+
+
+#questionnumber
+{
+color: #053e5b;
+font-weight: 800;
+font-size: 30px;
+position: relative;
+left: 5%;
+}
+
+#questiontitle
+{
+color: #063f5c;
+font-weight: bold;
+font-size: 25px;
+text-align: center;
+}
+
+td 
+{
+padding-bottom: 1%;
+padding-top: 1%;
+}
+
+.answertext
+{
+text-align: center;
+}
+
+table
+{
+width: 90%;
+margin: auto;
+}
+
+label > input:checked + p
+{
+border: 2px solid;
+}
+
+#answerboxes
+{
+color: white;
+margin: auto;
+text-align: center;
+}
+
+#answerbox1 
+{
+background: #094784;
+padding-top: 2%;
+padding-bottom: 2%;
+
+}
+
+#answerbox2
+{
+background: #03182d;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+#answerbox3
+{
+background: #063e59;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+#answerbox4
+{
+background: #1193d1;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+
+#resultswrap
+{
+width: 50%;
+margin: auto;
+}
+
+#center
+{
+margin: auto;
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+}
+
+#resultsbox
+{
+background: #527ea8;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border: 5px solid white;
+box-shadow: 5px 5px 5px #063e59;
+margin: auto;
+text-align: center;
+padding-bottom: 1.5%;
+width: 400px;
+}
+
+#resultsbox h1
+{
+color: gold;
+display: inline-block;
+}
+
+#resultsbox h2
+{
+display: inline-block;
+}
+
+.clear
+{
+clear: both;
+}
+
+
+.loginbutton {
+height:40px;
+width:200px;
+font-size:17px;
+background: linear-gradient(180deg,#6da7cd,#2d6bbe) no-repeat;
+font-weight:bold;
+border: 1px solid #bdd3eb;
+color: #033566;
+margin-top: 2%;
+}
+
+.resultbutton
+{
+height: 35px;
+width: 150px;
+font-size: 13px;
+background: linear-gradient(180deg,#6da7cd,#2d6bbe) no-repeat;
+font-weight:bold;
+border: 1px solid #bdd3eb;
+color: #033566;
+margin-top: 3%;
+}
+
+
+.loginbox
+{
+width: 60%;
+}
